@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery page should have default view with no photos 1`] = `
+.c2 {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px 20px;
+  outline: 0;
+  cursor: pointer;
+  border: 1px solid lightblue;
+  pointer-events: none;
+}
+
+.c5:active {
+  background-color: lightblue;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.c0 {
+  text-align: center;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,200px);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 div:last-child {
+  justify-self: flex-end;
+}
+
+.c3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,240px);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
+  row-gap: 20px;
+  min-height: 500px;
+  opacity: 1;
+}
+
+<div>
+  <h1
+    class="c0"
+  >
+    Photo Gallery
+  </h1>
+  <div
+    class="c1"
+  >
+    <input
+      name="search"
+      placeholder="search"
+    />
+    <select>
+      <option
+        value="10"
+      >
+        10
+      </option>
+      <option
+        value="20"
+      >
+        20
+      </option>
+      <option
+        value="30"
+      >
+        30
+      </option>
+    </select>
+    <div>
+      Displaying page 
+      1
+       of 
+    </div>
+  </div>
+  <hr
+    class="c2"
+  />
+  <div
+    class="c3"
+  />
+  <hr
+    class="c2"
+  />
+  <div
+    class="c4"
+  >
+    <button
+      class="c5"
+      disabled=""
+      title="first page"
+    >
+      &lt;&lt;
+    </button>
+    <button
+      class="c5"
+      disabled=""
+      title="previous page"
+    >
+      &lt;
+    </button>
+    <button
+      class="c5"
+      disabled=""
+      title="next page"
+    >
+      &gt;
+    </button>
+    <button
+      class="c5"
+      disabled=""
+      title="last page"
+    >
+      &gt;&gt;
+    </button>
+  </div>
+</div>
+`;
