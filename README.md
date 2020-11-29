@@ -11,7 +11,8 @@ I started by going over the assignment and looking at the static data file. I no
 the assignment asked me to paginate over the photos I realized this wouldn't be possible using all
 of the static data in the file. The file also contains the page the user is on, total pages, and
 how many photos to show per page. In orderr to simulate a working server with search and pagination
-I chose to just use the photos property from the data file and disregard the other properties.
+I chose to just use the photos property from the data file and disregard the other properties. I also
+converted the file to .js to simplify updating/persist the data via the edit photot modal.
 
 I chose react as the framework decision was left open and I enjoy working in React expecially when
 the view will have multiple re-renders based on search, perpage, and pagination.
