@@ -23,8 +23,9 @@ or keep there search link for later. For this reason I chose to use react-router
 one route that accepts an optional parameter.
 
 Changing the number of displayed photos per page was not in the requirements but was easy enough
-to implement so I added it. I made a few design/text changes as I thought it made more sense
-but other than that tried to stick closely to the wirefrrame design.
+to implement so I added it. I also noticed some of the image URL's are broken. So I made an image
+component that fallsback to a local image sad face. I also made a few design/text changes
+as I thought it made more sense but other than that tried to stick closely to the wirefrrame design.
 
 I used Create React App to bootstrap the project
 
