@@ -22,8 +22,9 @@ be persisted in the URL to simulate a larger application where a user can share 
 or keep there search link for later. For this reason I chose to use react-router despite only having
 one route that accepts an optional parameter.
 
-I made a few design/text changes as I thought it made more sense but other than that tried to stick
-closely to the wirefrrame design.
+Changing the number of displayed photos per page was not in the requirements but was easy enough
+to implement so I added it. I made a few design/text changes as I thought it made more sense
+but other than that tried to stick closely to the wirefrrame design.
 
 I used Create React App to bootstrap the project
 
