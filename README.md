@@ -12,15 +12,18 @@ the assignment asked me to paginate over the photos I realized this wouldn't be 
 of the static data in the file. The file also contains the page the user is on, total pages, and
 how many photos to show per page. In orderr to simulate a working server with search and pagination
 I chose to just use the photos property from the data file and disregard the other properties. I also
-converted the file to .js to simplify updating/persist the data via the edit photot modal.
+converted the file to .js to simplify updating/persist the data via the edit photo modal.
 
 I chose react as the framework decision was left open and I enjoy working in React expecially when
 the view will have multiple re-renders based on search, perpage, and pagination.
 
 I decided early on I would want the parameters that control the filter/search/page of the photos to 
-persisted in the URL to simulate a larger application where a user can share there URL with another
+be persisted in the URL to simulate a larger application where a user can share there URL with another
 or keep there search link for later. For this reason I chose to use react-router despite only having
 one route that accepts an optional parameter.
+
+I made a few design/text changes as I thought it made more sense but other than that tried to stick
+closely to the wirefrrame design.
 
 I used Create React App to bootstrap the project
 
@@ -70,14 +73,14 @@ hook within the Gallery page to manage the state of photos and pages, removing t
 
 ### Improvements
 
-As the application would grow it wouldn't be difficult to take this local reducer and add it to
-store. I also created a selector for the current photo to be selected by `photoId` so that this
+As the application would grow it wouldn't be difficult to add a redux store and take this local
+reducer and add it to store. I also created a selector for the current photo to be selected by `photoId` so that this
 could also be easily abstracted away.
 [selector](https://github.com/chrisjbrown/photo-gallery/blob/6e5adcd4fe5704cec91c11e7be0cb8c320dbde8e/src/pages/Gallery.js#L52-L52)
 ## Testing
 
-To conserve time I only tested a high level component. But based on this I think it's easy to see how
-the other smaller components could be tested as well.
+To conserve time I chose to only test the gallery component as it is the most complex. And based
+on this I think it's easy to see how the other smaller components could be tested as well.
 
 `src/pages/Gallery.test.js` tests that the list of photos is correctly rendered based on page, perpage, and search
 
