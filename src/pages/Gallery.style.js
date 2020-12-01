@@ -24,7 +24,7 @@ export const Controls = styled.div`
   justify-content: space-between;
 
   div:last-child {
-    justify-self: flex-end;
+    justify-self: text-align: right;
   }
 `;
 
